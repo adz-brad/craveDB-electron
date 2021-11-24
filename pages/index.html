@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>craveDB</title>
+    </head>
+    <body>
+
+        <div class="title-bar">
+         LOGO, ICONS X TO CLOSE, COG FOR SETTINGS, LIST FOR LOG, ETC
+        </div>
+
+        <div id="interface-wrapper" class="interface-wrapper">
+            <button onclick=startServer()>Start Server</button>
+            <button onclick=stopServer()>Stop Server</button>
+            <button onclick=restartServer()>Restart Server</button>
+    
+            <form id="apiInputForm">
+    
+                <label>Enter API Key</label>
+                <input type="text" id="apiKeyInput"/>
+                <button type="submit">Save API Key</button>
+            </form>
+    
+            <form id="appIDInputForm">
+                <label>Enter App ID</label>
+                <input type="text" id="appIDInput"/>
+                <button type="submit">Save App ID</button>
+            </form>
+        </div>
+
+        <div class="status-bar">
+
+        </div>
+
+        <script>
+            const windowHeight = window.innerHeight;
+            console.log(windowHeight);
+            const element = document.querySelector('#interface-wrapper');
+            element.setAttribute(`style`, `height: ${windowHeight - 150}px`);
+        </script>
+
+        <script src="../scripts/functions.js"></script>
+
+    </body>
+
+</html>

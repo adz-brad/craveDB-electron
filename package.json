@@ -1,0 +1,26 @@
+{
+  "name": "cravedb",
+  "productName": "craveDB Manager",
+  "version": "1.0.0",
+  "description": "Database / Server Manager for craveRMS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "neuralSBT",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "bson": "^4.5.3",
+    "electron-browser-storage": "^1.0.7",
+    "graphql": "^15.6.1",
+    "realm": "^10.8.0"
+  },
+  "devDependencies": {
+    "electron": "^15.1.1",
+    "electron-builder": "^22.11.7",
+    "electron-reloader": "^1.2.1"
+  }
+}
