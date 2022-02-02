@@ -1,3 +1,0 @@
-For pickup later -->
-
-Currently in the process of designing the frontend interface. Last action was creating the interface-wrapper where all of the server controls will be displayed. In terms of the server processes, everything is working in the windows distributable, so you should only need to carry on with the front-end dev and then look into the minor functionality in terms of server monitoring and error reporting.
